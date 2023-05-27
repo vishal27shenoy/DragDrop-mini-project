@@ -53,7 +53,7 @@ function dragEnd() {
     currPeice.src = otherImg;
     otherPeice.src = currImg;
   }
-  if (counter == 9) {
+  if (counter >= 9) {
     checkCompletion();
   }
 }
